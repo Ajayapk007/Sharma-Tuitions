@@ -3,9 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://ajayapk007.github.io/Sharma-Tuitions/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
